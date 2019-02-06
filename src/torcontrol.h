@@ -5,8 +5,8 @@
 /**
  * Functionality for communicating with Tor.
  */
-#ifndef BITCOIN_TORCONTROL_H
-#define BITCOIN_TORCONTROL_H
+#ifndef LEARNCOIN_TORCONTROL_H
+#define LEARNCOIN_TORCONTROL_H
 
 #include <scheduler.h>
 
@@ -17,4 +17,4 @@ void StartTorControl();
 void InterruptTorControl();
 void StopTorControl();
 
-#endif /* BITCOIN_TORCONTROL_H */
+#endif /* LEARNCOIN_TORCONTROL_H */

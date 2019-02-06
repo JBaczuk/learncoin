@@ -5,7 +5,7 @@
 #include <random.h>
 #include <scheduler.h>
 
-#include <test/test_bitcoin.h>
+#include <test/test_learncoin.h>
 
 #include <boost/bind.hpp>
 #include <boost/thread.hpp>

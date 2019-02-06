@@ -4,10 +4,10 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test transaction signing using the signrawtransaction* RPCs."""
 
-from test_framework.test_framework import BitcoinTestFramework
+from test_framework.test_framework import LearncoinTestFramework
 import decimal
 
-class RpcCreateMultiSigTest(BitcoinTestFramework):
+class RpcCreateMultiSigTest(LearncoinTestFramework):
     def set_test_params(self):
         self.setup_clean_chain = True
         self.num_nodes = 3

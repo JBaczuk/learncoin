@@ -1,0 +1,33 @@
+# /etc/conf.d/learncoind: config file for /etc/init.d/learncoind
+
+# Config file location
+#LEARNCOIND_CONFIGFILE="/etc/learncoin/learncoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $LEARNCOIND_USER)
+#LEARNCOIND_PIDDIR="/var/run/learncoind"
+
+# What filename to give the pidfile
+#LEARNCOIND_PIDFILE="${LEARNCOIND_PIDDIR}/learncoind.pid"
+
+# Where to write learncoind data (be mindful that the blockchain is large)
+#LEARNCOIND_DATADIR="/var/lib/learncoind"
+
+# User and group to own learncoind process
+#LEARNCOIND_USER="learncoin"
+#LEARNCOIND_GROUP="learncoin"
+
+# Path to learncoind executable
+#LEARNCOIND_BIN="/usr/bin/learncoind"
+
+# Nice value to run learncoind under
+#LEARNCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#LEARNCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for learncoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+LEARNCOIND_SIGTERM_TIMEOUT=60

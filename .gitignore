@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/bitcoin
-src/bitcoind
-src/bitcoin-cli
-src/bitcoin-tx
-src/test/test_bitcoin
-src/test/test_bitcoin_fuzzy
-src/qt/test/test_bitcoin-qt
+src/learncoin
+src/learncoind
+src/learncoin-cli
+src/learncoin-tx
+src/test/test_learncoin
+src/test/test_learncoin_fuzzy
+src/qt/test/test_learncoin-qt
 
 # autoreconf
 Makefile.in
@@ -30,8 +30,8 @@ config.log
 config.status
 configure
 libtool
-src/config/bitcoin-config.h
-src/config/bitcoin-config.h.in
+src/config/learncoin-config.h
+src/config/learncoin-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -44,11 +44,11 @@ src/qt/forms/ui_*.h
 
 src/qt/test/moc*.cpp
 
-src/qt/bitcoin-qt.config
-src/qt/bitcoin-qt.creator
-src/qt/bitcoin-qt.creator.user
-src/qt/bitcoin-qt.files
-src/qt/bitcoin-qt.includes
+src/qt/learncoin-qt.config
+src/qt/learncoin-qt.creator
+src/qt/learncoin-qt.creator.user
+src/qt/learncoin-qt.files
+src/qt/learncoin-qt.includes
 
 .deps
 .dirstamp
@@ -80,13 +80,13 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-bitcoin-qt
-Bitcoin-Qt.app
+learncoin-qt
+Learncoin-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-bitcoin-qt_test
+learncoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -99,7 +99,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_bitcoin.coverage/
+test_learncoin.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -114,5 +114,5 @@ test/cache/*
 
 /doc/doxygen/
 
-libbitcoinconsensus.pc
+liblearncoinconsensus.pc
 contrib/devtools/split-debug.sh
